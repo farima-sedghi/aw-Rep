@@ -3,39 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http;
+using System.Xml;
+using HtmlAgilityPack;
 
 namespace ConsoleApp1
 {
     class Program
     {
-        static int Main(string[] args)
+        static void Main(string[] args)
         {
+            GetHtmlAsync();
+            Console.ReadLine();
 
-           /* System.Numerics.BigInteger number1 = System.Numerics.BigInteger.Parse("223424234234242333234343243");
-            System.Numerics.BigInteger number2= System.Numerics.BigInteger.Parse("223424234234242333234343243");
-           var num= System.Numerics.BigInteger.Compare(number1 , number2);
-            Console.WriteLine(num);*/
-            int numeric = 0;
-            int chars = 0;
-            int symbols = 0;
-            int otherType = 0;
-            Console.WriteLine("enter string to counting character's type");
-            string st = Console.ReadLine();
-            for(int index=0;index<st.Length;index++)
-            {
-                if (Char.IsDigit(st[index]))
-                    numeric++;
-                else if (Char.IsLetter(st[index]))
-                    chars++;
-                else if (Char.IsSymbol(st[index]))
-                    symbols++;
-                else
-                    otherType++;
-            }
-            Console.WriteLine("numercis: {0:n} characters: {1:n} symbols: {2:n} otherType: {3:n}", numeric, chars, symbols, otherType);
-            Console.ReadKey();
-            return 0;
-            
+            var html = new HtmlDocument();
         }
-    }
+       private static async void GetHtmlAsync()
+        {
+            var url = "https://darman.tamin.ir/Forms/Public/Druglist.aspx?pagename=hdpDrugList";
+            var httpClient = new HttpClient();
+            var html =await httpClient.GetStringAsync(url);            
+            var htmlDocument = new HtmlDocument();
+            htmlDocument.LoadHtml(html);
+            var expertsHtml = htmlDocument.DocumentNode.Descendants("select")
+            .Where(node => node.GetAttributeValue("id", "")
+            .Equals("ctl00_ContentPlaceHolder1_lstspecdesc")).ToList();
+            var expertsList = expertsHtml[0].Descendants("option")
+                .Where(node => node.GetAttributeValue("value", "")
+                .Contains("00")).ToList();
+            Console.WriteLine();
+        }
+    }   
 }
