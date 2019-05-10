@@ -32,6 +32,7 @@ namespace ConsoleApp1
                 .Where(node => node.GetAttributeValue("value", "")
                 .Contains("00")).ToList();
             Console.WriteLine();
+            Console.WriteLine(expertsList.First());
         }
     }   
 }

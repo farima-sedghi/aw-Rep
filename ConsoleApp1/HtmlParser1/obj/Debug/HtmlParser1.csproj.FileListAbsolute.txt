@@ -1,0 +1,11 @@
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlParser1.exe.config
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlParser1.exe
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlParser1.pdb
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\obj\Debug\HtmlParser1.csprojAssemblyReference.cache
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\obj\Debug\HtmlParser1.csproj.CoreCompileInputs.cache
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\obj\Debug\HtmlParser1.csproj.CopyComplete
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\obj\Debug\HtmlParser1.exe
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\HtmlParser1\obj\Debug\HtmlParser1.pdb

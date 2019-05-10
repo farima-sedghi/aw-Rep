@@ -9,3 +9,5 @@ C:\Users\aser\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\HtmlAgilityPack.dll
 C:\Users\aser\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\aser\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\HtmlAgilityPack.xml
 C:\Users\aser\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Ali Ghorbani\Source\Repos\aw-Rep\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
